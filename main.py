@@ -3,7 +3,7 @@ import easyocr
 import matplotlib.pyplot as plt
 import numpy as np
 
-image_path = ''
+image_path = 'data/test2.png'  # Default sample image
 
 img = cv2.imread(image_path)
 
